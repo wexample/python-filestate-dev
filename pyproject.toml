@@ -17,7 +17,12 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-dependencies = []
+dependencies = [
+    "pip-tools",
+    "pydantic",
+    "pytest",
+    "wexample-filestate"
+]
 
 [project.urls]
 homepage = "https://github.com/wexample/python-filestate-dev"
