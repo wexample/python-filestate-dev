@@ -12,6 +12,10 @@ click==8.1.8
     # via pip-tools
 iniconfig==2.0.0
     # via pytest
+markdown-it-py==3.0.0
+    # via rich
+mdurl==0.1.2
+    # via markdown-it-py
 packaging==24.2
     # via
     #   build
@@ -21,19 +25,36 @@ pip-tools==7.4.1
 pluggy==1.5.0
     # via pytest
 pydantic==2.10.4
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   wexample-filestate
+    #   wexample-prompt
 pydantic-core==2.27.2
     # via pydantic
+pygments==2.19.1
+    # via rich
 pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
 pytest==8.3.4
     # via -r requirements.in
+rich==13.9.4
+    # via wexample-prompt
 typing-extensions==4.12.2
     # via
     #   pydantic
     #   pydantic-core
+wexample-config==0.0.16
+    # via wexample-filestate
+wexample-filestate==0.0.16
+    # via -r requirements.in
+wexample-helpers==0.0.16
+    # via
+    #   wexample-config
+    #   wexample-filestate
+wexample-prompt==0.0.15
+    # via wexample-filestate
 wheel==0.45.1
     # via pip-tools
 
