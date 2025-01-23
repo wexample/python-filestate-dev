@@ -22,7 +22,7 @@ dependencies = [
     "pip-tools",
     "pydantic",
     "pytest",
-    "wexample-filestate",
+    "wexample-filestate==0.0.18",
 ]
 
 [project.readme]
