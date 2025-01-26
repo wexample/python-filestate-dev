@@ -2,7 +2,7 @@
 
 Some python basic helpers.
 
-Version: 0.0.6
+Version: 0.0.7
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Version: 0.0.6
 - pip-tools
 - pydantic
 - pytest
-- wexample-filestate==0.0.21
+- wexample-filestate==0.0.22
 
 ## Installation
 
