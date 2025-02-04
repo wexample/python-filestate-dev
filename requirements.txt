@@ -67,7 +67,7 @@ wexample-helpers==0.0.26
 # via
 #   wexample-config
 #   wexample-filestate
-wexample-prompt==0.0.25
+wexample-prompt==0.0.27
 # via wexample-filestate
 wheel==0.45.1
 # via pip-tools
