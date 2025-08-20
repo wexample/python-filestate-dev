@@ -11,7 +11,9 @@ class WithVersionWorkdirMixin:
             "type": DiskItemType.FILE,
             "should_exist": True,
             "default_content": f"0.0.1",
-            "content_trim": True,
+            "text_filter": [
+                "trim"
+            ],
         })
 
         return config
