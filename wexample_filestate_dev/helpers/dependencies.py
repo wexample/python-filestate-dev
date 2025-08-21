@@ -1,4 +1,4 @@
-from typing import Dict, List, Set, TypeVar, Callable
+from typing import Callable, Dict, List, Set, TypeVar
 
 SortableType = TypeVar("SortableType")
 
