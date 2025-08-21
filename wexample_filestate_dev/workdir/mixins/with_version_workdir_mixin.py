@@ -9,7 +9,7 @@ from wexample_helpers.helpers.string import string_ensure_end_with_new_line
 
 
 class WithVersionWorkdirMixin:
-    def append_version(self, config: Optional[DictConfig] = None) -> DictConfig:
+    def append_version(self, config: DictConfig | None = None) -> DictConfig:
         config.get("children").append(
             {
                 "name": "version.txt",

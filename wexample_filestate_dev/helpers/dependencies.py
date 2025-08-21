@@ -1,17 +1,18 @@
-from typing import Callable, Dict, List, Set, TypeVar
+from typing import Dict, List, Set, TypeVar
+from collections.abc import Callable
 
 SortableType = TypeVar("SortableType")
 
 
 def dependencies_sort(
-    items: List[SortableType],
-    get_dependencies: Callable[[SortableType], Set[SortableType]],
-) -> List[SortableType]:
+    items: list[SortableType],
+    get_dependencies: Callable[[SortableType], set[SortableType]],
+) -> list[SortableType]:
     """
     Sort a list of items based on their dependencies.
     """
     # Build dependency map
-    dependencies: Dict[SortableType, Set[SortableType]] = {
+    dependencies: dict[SortableType, set[SortableType]] = {
         item: get_dependencies(item) for item in items
     }
 

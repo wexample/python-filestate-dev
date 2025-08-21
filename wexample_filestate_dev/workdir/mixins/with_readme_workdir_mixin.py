@@ -11,7 +11,7 @@ from wexample_filestate.const.disk import DiskItemType
 
 
 class WithReadmeWorkdirMixin:
-    def append_readme(self, config: Optional[DictConfig] = None) -> DictConfig:
+    def append_readme(self, config: DictConfig | None = None) -> DictConfig:
         config.get("children").append(
             {
                 "name": "README.md",
