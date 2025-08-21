@@ -1,8 +1,9 @@
 from typing import Any, Optional
 
 from wexample_config.const.types import DictConfig
-from wexample_filestate.config_option.text_filter_config_option import \
-    TextFilterConfigOption
+from wexample_filestate.config_option.text_filter_config_option import (
+    TextFilterConfigOption,
+)
 from wexample_filestate.const.disk import DiskItemType
 from wexample_helpers.helpers.string import string_ensure_end_with_new_line
 
