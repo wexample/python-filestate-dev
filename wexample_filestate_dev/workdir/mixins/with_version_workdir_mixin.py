@@ -1,6 +1,7 @@
 from typing import Optional
 
 from wexample_config.const.types import DictConfig
+from wexample_filestate.config_option.text_filter_config_option import TextFilterConfigOption
 from wexample_filestate.const.disk import DiskItemType
 
 
@@ -12,7 +13,7 @@ class WithVersionWorkdirMixin:
             "should_exist": True,
             "default_content": f"0.0.1",
             "text_filter": [
-                "trim"
+                TextFilterConfigOption.OPTION_NAME_ENSURE_NEWLINE
             ],
         })
 
