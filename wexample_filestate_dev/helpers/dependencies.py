@@ -1,5 +1,5 @@
-from typing import Dict, List, Set, TypeVar
 from collections.abc import Callable
+from typing import Dict, List, Set, TypeVar
 
 SortableType = TypeVar("SortableType")
 
