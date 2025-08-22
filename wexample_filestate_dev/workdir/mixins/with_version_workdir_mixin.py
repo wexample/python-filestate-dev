@@ -1,12 +1,14 @@
-from typing import Any
+from __future__ import annotations
+from typing import Any, TYPE_CHECKING
 
-from wexample_config.const.types import DictConfig
 from wexample_filestate.config_option.text_filter_config_option import (
     TextFilterConfigOption,
 )
 from wexample_filestate.const.disk import DiskItemType
 from wexample_helpers.helpers.string import string_ensure_end_with_new_line
 
+if TYPE_CHECKING:
+    from wexample_config.const.types import DictConfig
 
 class WithVersionWorkdirMixin:
     def append_version(self, config: DictConfig | None = None) -> DictConfig:
