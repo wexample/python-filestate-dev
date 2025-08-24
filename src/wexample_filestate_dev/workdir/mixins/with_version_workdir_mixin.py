@@ -19,7 +19,7 @@ class WithVersionWorkdirMixin:
                 "name": "version.txt",
                 "type": DiskItemType.FILE,
                 "should_exist": True,
-                "default_content": self._get_version_default_content(),
+                "content": self._get_version_default_content(),
                 "text_filter": [TextFilterConfigOption.OPTION_NAME_ENSURE_NEWLINE],
             }
         )
