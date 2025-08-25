@@ -17,7 +17,7 @@ classifiers = [
 ]
 dependencies = [
     "pydantic>=2,<3",
-    "wexample-filestate",
+    "wexample-filestate==0.0.46",
 ]
 
 [project.readme]
