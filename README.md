@@ -1,19 +1,17 @@
-# Filestate Dev
+# wexample-filestate-dev
 
 Some python basic helpers.
 
-Version: 0.0.17
+Version: 0.0.34
 
 ## Requirements
 
-- Python >=3.6
+- Python >=3.10
 
 ## Dependencies
 
-- pip-tools
-- pydantic
-- pytest
-- wexample-filestate==0.0.31
+- pydantic>=2,<3
+- wexample-filestate==0.0.46
 
 ## Installation
 
