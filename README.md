@@ -11,7 +11,7 @@ Version: 0.0.35
 ## Dependencies
 
 - pydantic>=2,<3
-- wexample-filestate==0.0.46
+- wexample-filestate==0.0.47
 
 ## Installation
 
