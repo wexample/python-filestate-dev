@@ -2,7 +2,7 @@
 
 Some python basic helpers.
 
-Version: 0.0.34
+Version: 0.0.35
 
 ## Requirements
 
