@@ -2,7 +2,7 @@
 
 Some python basic helpers.
 
-Version: 0.0.37
+Version: 0.0.38
 
 ## Requirements
 
@@ -11,7 +11,7 @@ Version: 0.0.37
 ## Dependencies
 
 - pydantic>=2,<3
-- wexample-filestate==0.0.50
+- wexample-filestate==0.0.51
 
 ## Installation
 
