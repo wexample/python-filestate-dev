@@ -40,7 +40,7 @@ distribution = true
 
 [tool.pdm.build]
 includes = [
-    "src/wexample_filestate_dev/py.typed",
+    'src/wexample_filestate_dev/*',
 ]
 package-dir = "src"
 
