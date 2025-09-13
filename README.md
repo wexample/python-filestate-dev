@@ -2,7 +2,7 @@
 
 Some python basic helpers.
 
-Version: 0.0.38
+Version: 0.0.39
 
 ## Requirements
 
@@ -12,7 +12,7 @@ Version: 0.0.38
 
 - attrs>=23.1.0
 - cattrs>=23.1.0
-- wexample-filestate==0.0.51
+- wexample-filestate==0.0.52
 
 ## Installation
 
