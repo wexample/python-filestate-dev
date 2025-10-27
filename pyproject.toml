@@ -34,6 +34,7 @@ homepage = "https://github.com/wexample/python-filestate-dev"
 [project.optional-dependencies]
 dev = [
     "pytest",
+    "pytest-cov",
 ]
 
 [tool.pdm]
@@ -45,3 +46,7 @@ package-dir = "src"
 [[tool.pdm.build.packages]]
 include = "wexample_filestate_dev"
 from = "src"
+
+[tool.setuptools.packages.find]
+include = ["*"]
+exclude = ["wexample_filestate_dev.testing*"]
