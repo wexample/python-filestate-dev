@@ -1,6 +1,6 @@
 # wexample-filestate-dev
 
-Version: 0.0.42
+Version: 0.0.44
 
 Some python basic helpers.
 
