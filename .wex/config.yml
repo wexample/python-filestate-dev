@@ -1,2 +1,3 @@
-name: filestate_dev
-version: 0.0.35
+global:
+  name: filestate_dev
+  version: 0.0.47
