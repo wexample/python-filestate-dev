@@ -143,10 +143,10 @@ Free to use in both personal and commercial projects.
 
 ## Useful Links
 
-- **Homepage**: https://github.com/wexample/python-filestate_dev
+- **Homepage**: https://github.com/wexample/python-filestate-dev
 - **Documentation**: [docs.wexample.com](https://docs.wexample.com)
-- **Issue Tracker**: https://github.com/wexample/python-filestate_dev/issues
-- **Discussions**: https://github.com/wexample/python-filestate_dev/discussions
+- **Issue Tracker**: https://github.com/wexample/python-filestate-dev/issues
+- **Discussions**: https://github.com/wexample/python-filestate-dev/discussions
 - **PyPI**: [pypi.org/project/wexample-filestate-dev](https://pypi.org/project/wexample-filestate-dev/)
 
 ## Integration in the Suite
