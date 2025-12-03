@@ -1,6 +1,6 @@
 # wexample-filestate-dev
 
-Version: 0.0.50
+Version: 0.0.51
 
 Some python basic helpers.
 
@@ -208,7 +208,7 @@ Refer to each package's documentation for specific version compatibility require
 
 - attrs: >=23.1.0
 - cattrs: >=23.1.0
-- wexample-filestate: ==0.0.73
+- wexample-filestate: ==0.0.74
 
 
 # About us
